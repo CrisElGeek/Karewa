@@ -11,7 +11,7 @@ Se recomiendan los siguiente requerimientos para el correcto funcionamiento del 
 ### Otras dependencias de Node necesarias
 
 - [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/)
-- [yeomans 4](npm install -g yo@4.1.0) * *Es la version de yeomans que es compatible con NodeJs 12*
+- yeomans 4 * *Es la version de yeomans que es compatible con NodeJs 12*
 
 
 
@@ -57,6 +57,10 @@ Debemos instalar las dependencia de **VUEJS**
 > npm install
 
 ## Generar los catálogos
+
+Necesitas yeomans si no lo tienes instalado lo puedes hacer así:
+
+> yo generator-mkw:catalog
 
 > npm link ./generators/generator-mkw
 
@@ -110,7 +114,7 @@ sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -
 
 #### Agregar el script a tu directorio local
 
-* Tienes que utilizar el comando que te arrojo en el paso anterior, no este
+ *\*Tienes que utilizar el comando que te arrojo en el paso anterior, no este*
 
 >     sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u sammy --hp /home/sammy
 
