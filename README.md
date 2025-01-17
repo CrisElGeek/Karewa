@@ -108,10 +108,10 @@ Ejecutar pruebas:
 
 # Despliegue y configuración del servidor para producción
 
-[Despliegue en Google Cloud Platform](docs/googleCloudConfig.md)
-[Despliegue en Docker](docs/dockerConfig.md)
-[Despliegue en Continuos Development(Github CD)](docs/continuosDevelopment.md)
-[Despliegue en servidor con Nginx](docs/nginxServerConfig.md)
+- [Despliegue en Google Cloud Platform](docs/googleCloudConfig.md)
+- [Despliegue en Docker](docs/dockerConfig.md)
+- [Despliegue en Continuos Development(Github CD)](docs/continuosDevelopment.md)
+- [Despliegue en servidor con Nginx](docs/nginxServerConfig.md)
 
 # Configuración cuenta para envío de correos
 
