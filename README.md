@@ -11,14 +11,13 @@ Nuestros principales objetivos son los siguientes:
 - Replicabilidad - Permitir a cualquier institución pública tener su propia instancia, ofreciendo herramientas y guías en como hacerlo.
 - Usabilidad - Empoderar a los ciudadanos con una plataforma accesible desde cualquier lugar, con un enfoque en la accesibilidad y experiencia de usuario.
 
- # Implementación rápida (sin configuración)
+# Implementación rápida (sin configuración)
 
- Puedes crear una nueva instancia de Monitor Karewa en Heroku usando el siguiente botón. Recuerda antes [crear una cuenta gratuita en Heroku](https://signup.heroku.com/).
+Puedes crear una nueva instancia de Monitor Karewa en Heroku usando el siguiente botón. Recuerda antes [crear una cuenta gratuita en Heroku](https://signup.heroku.com/).
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/monitor-karewa/monitor)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/monitor-karewa/monitor)
 
- **NOTA**: Por limitaciones de Heroku, este servicio solo se encuentra disponible desde GitHub: https://github.com/monitor-karewa/monitor
-
+**NOTA**: Por limitaciones de Heroku, este servicio solo se encuentra disponible desde GitHub: https://github.com/monitor-karewa/monitor
 
 ## Plataforma
 
@@ -109,11 +108,14 @@ Ejecutar pruebas:
 
 # Despliegue y configuración del servidor para producción
 
-[Enlace a documentación](docs/serverConfig.md)
+[Despliegue en Google Cloud Platform](docs/googleCloudConfig.md)
+[Despliegue en Docker](docs/dockerConfig.md)
+[Despliegue en Continuos Development(Github CD)](docs/continuosDevelopment.md)
+[Despliegue en servidor con Nginx](docs/nginxServerConfig.md)
 
 # Configuración cuenta para envío de correos
 
-La plataforma envía correos mediante la cuenta smtp configurada a través de las siguientes variables de entorno:
+La plataforma envía correos mediante la cuenta smtp configurada a través de las siguientes variables de entorno agregandolas o editandolas en los archivos `.env.production` y/o `.env.development`:
 
 - `SMTP_USER`: Usuario para credenciales de SMTP
 - `SMTP_PASS`: Contraseña para credenciales de SMTP
